@@ -1,0 +1,138 @@
+body {
+  background-color: #8cc461;
+  margin: 0;
+  padding: 0;
+}
+
+.whiteborder {
+  width: 60%;
+  height: 150px;
+  border: 2px solid white;
+  margin-top: 2%;
+  margin-left: 20%;
+  border-radius: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 10px;
+}
+
+.text {
+  font-family: Roboto, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.computersccore {
+  width: 120px;
+  height: 120px;
+  border-radius: 9px;
+  background-color: white;
+  margin-left: 55%;
+  display: flex;
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  letter-spacing: 10%;
+  color: #656565;
+}
+
+.yourscore {
+  width: 120px;
+  height: 120px;
+  border-radius: 9px;
+  background-color: white;
+  margin-left: 2%;
+  display: flex;
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  letter-spacing: 10%;
+  color: #656565;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7%;
+  position: relative;
+}
+
+.image-button {
+  background: none;
+  border: none;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.image-button img {
+  width: 100px;
+  height: 100px;
+}
+
+.image-container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+  position: relative;
+}
+
+.inner-image {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  width: 45px;
+  height: 45px;
+}
+
+.image-wrapper {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.triangle-line {
+  width: 0;
+  height: 0;
+  border-left: 75px solid transparent;
+  border-right: 75px solid transparent;
+  border-top: 150px solid #000000A3;
+  position: absolute;
+  border-width: 2px solid black;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.rulesbutton{
+  margin-left: 90%;
+  margin-top: 7%;
+  width: 119px;
+  height: 40px;
+  border-radius: 10px;
+  border: 2px solid #D9D9D9;
+  color: white;
+  background-color: transparent;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  text-align: center;
+  cursor: pointer;
+
+}
+
+.game-message {
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  margin-top: 20px;
+}

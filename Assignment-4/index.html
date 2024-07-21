@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="./index.css"/>
+    <title>Module Test - 1</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <div class="whiteborder">
+            <div>
+                <p class="text">ROCK</p>
+                <p class="text">PAPER</p>
+                <p class="text">SCISSORS</p>
+            </div>
+            <div class="computersccore" id="computerScore">
+                <p>COMPUTER SCORE <span id="computerScoreValue">0</span></p>
+            </div>
+            <div class="yourscore" id="yourScore">
+                <p style="margin-left: 16%;">YOUR SCORE: <span id="yourScoreValue">0</span></p>
+            </div>
+        </div>
+        <div class="triangle-line"></div>
+        <div class="image-container connector">
+            <button class="image-button" onclick="playGame('rock')">
+                <div class="image-wrapper">
+                    <img src="./assets/bluecircle.png" alt="Blue Circle">
+                    <img src="./assets/stone.png" class="inner-image" alt="Stone" style="width: 45px; height: 45px;">
+                </div>
+            </button>
+            <button class="image-button" onclick="playGame('scissors')">
+                <div class="image-wrapper">
+                    <img src="./assets/viloletcircle.png" alt="Violet Circle">
+                    <img src="./assets/scisors.png" class="inner-image" alt="Scissors" style="width: 45px; height: 45px;">
+                </div>
+            </button>
+        </div>
+        <div class="image-container1 connector">
+            <button class="image-button" onclick="playGame('paper')">
+                <div class="image-wrapper">
+                    <img src="./assets/orangrcircle.png" alt="Orange Circle">
+                    <img src="./assets/paper.png" class="inner-image" alt="Paper" style="width: 45px; height: 45px;">
+                </div>
+            </button>
+        </div>
+        <div>
+            <button class="rulesbutton" onclick="showRules()">RULES</button>
+        </div>
+        <div id="gameMessage" class="game-message"></div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
