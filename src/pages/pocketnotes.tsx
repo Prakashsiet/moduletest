@@ -20,7 +20,7 @@ const PocketNotes: React.FC = () => {
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setText(event.target.value);
   };
-
+ 
   const handleSendClick = () => {
     console.log('Send clicked');
   };
